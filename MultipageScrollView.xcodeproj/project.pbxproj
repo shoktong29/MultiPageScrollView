@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B8A84C8156B263800B9128C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8A84C7156B263800B9128C /* UIKit.framework */; };
+		5B8A84CA156B263800B9128C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8A84C9156B263800B9128C /* Foundation.framework */; };
+		5B8A84CC156B263800B9128C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8A84CB156B263800B9128C /* CoreGraphics.framework */; };
+		5B8A84CE156B263800B9128C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8A84CD156B263800B9128C /* CoreData.framework */; };
+		5B8A84D4156B263800B9128C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A84D2156B263800B9128C /* InfoPlist.strings */; };
+		5B8A84D6156B263800B9128C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A84D5156B263800B9128C /* main.m */; };
+		5B8A84DA156B263800B9128C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A84D9156B263800B9128C /* AppDelegate.m */; };
+		5B8A84DD156B263800B9128C /* MultipageScrollView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A84DB156B263800B9128C /* MultipageScrollView.xcdatamodeld */; };
+		5B8A84E5156B263800B9128C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8A84E4156B263800B9128C /* SenTestingKit.framework */; };
+		5B8A84E6156B263800B9128C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8A84C7156B263800B9128C /* UIKit.framework */; };
+		5B8A84E7156B263800B9128C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8A84C9156B263800B9128C /* Foundation.framework */; };
+		5B8A84E8156B263800B9128C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8A84CD156B263800B9128C /* CoreData.framework */; };
+		5B8A84F0156B263800B9128C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A84EE156B263800B9128C /* InfoPlist.strings */; };
+		5B8A84F3156B263800B9128C /* MultipageScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A84F2156B263800B9128C /* MultipageScrollViewTests.m */; };
+		5B8A84FF156B269B00B9128C /* View1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A84FE156B269B00B9128C /* View1.m */; };
+		5B8A8502156B26D100B9128C /* View2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A8501156B26D100B9128C /* View2.m */; };
+		5B8A8505156B26EB00B9128C /* View3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A8504156B26EB00B9128C /* View3.m */; };
+		5B8A8508156B271800B9128C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A8507156B271800B9128C /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B8A84E9156B263800B9128C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B8A84BA156B263800B9128C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B8A84C2156B263800B9128C;
+			remoteInfo = MultipageScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B8A84C3156B263800B9128C /* MultipageScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipageScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8A84C7156B263800B9128C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B8A84C9156B263800B9128C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B8A84CB156B263800B9128C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B8A84CD156B263800B9128C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5B8A84D1156B263800B9128C /* MultipageScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipageScrollView-Info.plist"; sourceTree = "<group>"; };
+		5B8A84D3156B263800B9128C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B8A84D5156B263800B9128C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B8A84D7156B263800B9128C /* MultipageScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultipageScrollView-Prefix.pch"; sourceTree = "<group>"; };
+		5B8A84D8156B263800B9128C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B8A84D9156B263800B9128C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B8A84DC156B263800B9128C /* MultipageScrollView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MultipageScrollView.xcdatamodel; sourceTree = "<group>"; };
+		5B8A84E3156B263800B9128C /* MultipageScrollViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipageScrollViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8A84E4156B263800B9128C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B8A84ED156B263800B9128C /* MultipageScrollViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipageScrollViewTests-Info.plist"; sourceTree = "<group>"; };
+		5B8A84EF156B263800B9128C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B8A84F1156B263800B9128C /* MultipageScrollViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipageScrollViewTests.h; sourceTree = "<group>"; };
+		5B8A84F2156B263800B9128C /* MultipageScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipageScrollViewTests.m; sourceTree = "<group>"; };
+		5B8A84FD156B269B00B9128C /* View1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View1.h; sourceTree = "<group>"; };
+		5B8A84FE156B269B00B9128C /* View1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View1.m; sourceTree = "<group>"; };
+		5B8A8500156B26D100B9128C /* View2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View2.h; sourceTree = "<group>"; };
+		5B8A8501156B26D100B9128C /* View2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View2.m; sourceTree = "<group>"; };
+		5B8A8503156B26EB00B9128C /* View3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View3.h; sourceTree = "<group>"; };
+		5B8A8504156B26EB00B9128C /* View3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View3.m; sourceTree = "<group>"; };
+		5B8A8506156B271800B9128C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B8A8507156B271800B9128C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B8A84C0156B263800B9128C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8A84C8156B263800B9128C /* UIKit.framework in Frameworks */,
+				5B8A84CA156B263800B9128C /* Foundation.framework in Frameworks */,
+				5B8A84CC156B263800B9128C /* CoreGraphics.framework in Frameworks */,
+				5B8A84CE156B263800B9128C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8A84DF156B263800B9128C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8A84E5156B263800B9128C /* SenTestingKit.framework in Frameworks */,
+				5B8A84E6156B263800B9128C /* UIKit.framework in Frameworks */,
+				5B8A84E7156B263800B9128C /* Foundation.framework in Frameworks */,
+				5B8A84E8156B263800B9128C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B8A84B8156B263800B9128C = {
+			isa = PBXGroup;
+			children = (
+				5B8A84CF156B263800B9128C /* MultipageScrollView */,
+				5B8A84EB156B263800B9128C /* MultipageScrollViewTests */,
+				5B8A84C6156B263800B9128C /* Frameworks */,
+				5B8A84C4156B263800B9128C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B8A84C4156B263800B9128C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A84C3156B263800B9128C /* MultipageScrollView.app */,
+				5B8A84E3156B263800B9128C /* MultipageScrollViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B8A84C6156B263800B9128C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A84C7156B263800B9128C /* UIKit.framework */,
+				5B8A84C9156B263800B9128C /* Foundation.framework */,
+				5B8A84CB156B263800B9128C /* CoreGraphics.framework */,
+				5B8A84CD156B263800B9128C /* CoreData.framework */,
+				5B8A84E4156B263800B9128C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B8A84CF156B263800B9128C /* MultipageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A84D8156B263800B9128C /* AppDelegate.h */,
+				5B8A84D9156B263800B9128C /* AppDelegate.m */,
+				5B8A8506156B271800B9128C /* ViewController.h */,
+				5B8A8507156B271800B9128C /* ViewController.m */,
+				5B8A84FC156B264600B9128C /* Views */,
+				5B8A84DB156B263800B9128C /* MultipageScrollView.xcdatamodeld */,
+				5B8A84D0156B263800B9128C /* Supporting Files */,
+			);
+			path = MultipageScrollView;
+			sourceTree = "<group>";
+		};
+		5B8A84D0156B263800B9128C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A84D1156B263800B9128C /* MultipageScrollView-Info.plist */,
+				5B8A84D2156B263800B9128C /* InfoPlist.strings */,
+				5B8A84D5156B263800B9128C /* main.m */,
+				5B8A84D7156B263800B9128C /* MultipageScrollView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B8A84EB156B263800B9128C /* MultipageScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A84F1156B263800B9128C /* MultipageScrollViewTests.h */,
+				5B8A84F2156B263800B9128C /* MultipageScrollViewTests.m */,
+				5B8A84EC156B263800B9128C /* Supporting Files */,
+			);
+			path = MultipageScrollViewTests;
+			sourceTree = "<group>";
+		};
+		5B8A84EC156B263800B9128C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A84ED156B263800B9128C /* MultipageScrollViewTests-Info.plist */,
+				5B8A84EE156B263800B9128C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B8A84FC156B264600B9128C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A84FD156B269B00B9128C /* View1.h */,
+				5B8A84FE156B269B00B9128C /* View1.m */,
+				5B8A8500156B26D100B9128C /* View2.h */,
+				5B8A8501156B26D100B9128C /* View2.m */,
+				5B8A8503156B26EB00B9128C /* View3.h */,
+				5B8A8504156B26EB00B9128C /* View3.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B8A84C2156B263800B9128C /* MultipageScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8A84F6156B263800B9128C /* Build configuration list for PBXNativeTarget "MultipageScrollView" */;
+			buildPhases = (
+				5B8A84BF156B263800B9128C /* Sources */,
+				5B8A84C0156B263800B9128C /* Frameworks */,
+				5B8A84C1156B263800B9128C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipageScrollView;
+			productName = MultipageScrollView;
+			productReference = 5B8A84C3156B263800B9128C /* MultipageScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B8A84E2156B263800B9128C /* MultipageScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8A84F9156B263800B9128C /* Build configuration list for PBXNativeTarget "MultipageScrollViewTests" */;
+			buildPhases = (
+				5B8A84DE156B263800B9128C /* Sources */,
+				5B8A84DF156B263800B9128C /* Frameworks */,
+				5B8A84E0156B263800B9128C /* Resources */,
+				5B8A84E1156B263800B9128C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B8A84EA156B263800B9128C /* PBXTargetDependency */,
+			);
+			name = MultipageScrollViewTests;
+			productName = MultipageScrollViewTests;
+			productReference = 5B8A84E3156B263800B9128C /* MultipageScrollViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B8A84BA156B263800B9128C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5B8A84BD156B263800B9128C /* Build configuration list for PBXProject "MultipageScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B8A84B8156B263800B9128C;
+			productRefGroup = 5B8A84C4156B263800B9128C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B8A84C2156B263800B9128C /* MultipageScrollView */,
+				5B8A84E2156B263800B9128C /* MultipageScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B8A84C1156B263800B9128C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8A84D4156B263800B9128C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8A84E0156B263800B9128C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8A84F0156B263800B9128C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B8A84E1156B263800B9128C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B8A84BF156B263800B9128C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8A84D6156B263800B9128C /* main.m in Sources */,
+				5B8A84DA156B263800B9128C /* AppDelegate.m in Sources */,
+				5B8A84DD156B263800B9128C /* MultipageScrollView.xcdatamodeld in Sources */,
+				5B8A84FF156B269B00B9128C /* View1.m in Sources */,
+				5B8A8502156B26D100B9128C /* View2.m in Sources */,
+				5B8A8505156B26EB00B9128C /* View3.m in Sources */,
+				5B8A8508156B271800B9128C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8A84DE156B263800B9128C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8A84F3156B263800B9128C /* MultipageScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B8A84EA156B263800B9128C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B8A84C2156B263800B9128C /* MultipageScrollView */;
+			targetProxy = 5B8A84E9156B263800B9128C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B8A84D2156B263800B9128C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B8A84D3156B263800B9128C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B8A84EE156B263800B9128C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B8A84EF156B263800B9128C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B8A84F4156B263800B9128C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B8A84F5156B263800B9128C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B8A84F7156B263800B9128C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipageScrollView/MultipageScrollView-Prefix.pch";
+				INFOPLIST_FILE = "MultipageScrollView/MultipageScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B8A84F8156B263800B9128C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipageScrollView/MultipageScrollView-Prefix.pch";
+				INFOPLIST_FILE = "MultipageScrollView/MultipageScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5B8A84FA156B263800B9128C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultipageScrollView.app/MultipageScrollView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipageScrollView/MultipageScrollView-Prefix.pch";
+				INFOPLIST_FILE = "MultipageScrollViewTests/MultipageScrollViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5B8A84FB156B263800B9128C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultipageScrollView.app/MultipageScrollView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipageScrollView/MultipageScrollView-Prefix.pch";
+				INFOPLIST_FILE = "MultipageScrollViewTests/MultipageScrollViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B8A84BD156B263800B9128C /* Build configuration list for PBXProject "MultipageScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8A84F4156B263800B9128C /* Debug */,
+				5B8A84F5156B263800B9128C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B8A84F6156B263800B9128C /* Build configuration list for PBXNativeTarget "MultipageScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8A84F7156B263800B9128C /* Debug */,
+				5B8A84F8156B263800B9128C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B8A84F9156B263800B9128C /* Build configuration list for PBXNativeTarget "MultipageScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8A84FA156B263800B9128C /* Debug */,
+				5B8A84FB156B263800B9128C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B8A84DB156B263800B9128C /* MultipageScrollView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B8A84DC156B263800B9128C /* MultipageScrollView.xcdatamodel */,
+			);
+			currentVersion = 5B8A84DC156B263800B9128C /* MultipageScrollView.xcdatamodel */;
+			path = MultipageScrollView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5B8A84BA156B263800B9128C /* Project object */;
+}
